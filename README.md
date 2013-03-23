@@ -6,7 +6,7 @@ This Gem provides a bunch of [Capistrano Tasks](https://github.com/capistrano/ca
 
 Add this line to your application's Gemfile:
 
-    gem 'captain-druberspace'
+    gem 'captain-druberspace', :git => 'git@github.com:pixelpogo/captain-druberspace.git'
 
 And then execute:
 
@@ -16,7 +16,7 @@ Or install it yourself as:
 
     $ gem install captain-druberspace
 
-## Perparation
+## Preparation
 
 ### Capify
 
@@ -93,7 +93,7 @@ Uberspace provides MySQL database credentials for your accoubt in `~/.mycnf`. Ca
           'host' => 'localhost',
           'port' => '',
           'driver' => 'mysql',
-          'prefix' => 'vdm_',
+          'prefix' => '',
         ),
       ),
     );
