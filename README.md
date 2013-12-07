@@ -63,7 +63,7 @@ This an example how your Capfile could (or should) look like
 
 ### Drush
 
-Captain-Druberspace relies on the Drupal Shell (Drush), see <http://wwwdrush.ws>.
+Captain-Druberspace relies on the Drupal Shell (Drush), see <http://www.drush.ws>.
 
 So please ensure, that you have drush installed on your Uberspace account.
 
@@ -80,7 +80,7 @@ Create a sites directory for your production/staging environment.
 
 Place and configure a settings.php file into your `sites/production directory`.
 
-Uberspace provides MySQL database credentials for your accoubt in `~/.mycnf`. Captain-Druberspace will read these and inject them into your `settings.php` if you follow the convention, which means, that you have to use certain placeholders:
+Uberspace provides MySQL database credentials for your accoubt in `~/.my.cnf`. Captain-Druberspace will read these and inject them into your `settings.php` if you follow the convention, which means, that you have to use certain placeholders:
 
     $databases = array (
       'default' =>
